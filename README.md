@@ -98,4 +98,4 @@ MIT
 
 ---
 
-Made with love by [Your Name]
+Made with love by Linda
