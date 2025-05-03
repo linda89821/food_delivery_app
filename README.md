@@ -1,84 +1,101 @@
-[# Food Delivery App
+# Food Delivery App
 
-A full-stack food delivery application with user authentication, dish browsing, shopping cart, and checkout features.
+A simple fullstack food delivery web application with user authentication, cart functionality, and checkout flow.
 
 ## Features
 
-- **User Authentication**: Sign up, log in, and redirect to dashboard.
-- **Dashboard**: Browse food items and add them to your cart.
-- **Shopping Cart**: View selected items, see total price, and clear cart.
-- **Checkout Flow**: Confirm checkout and view a success page.
-- **State Management**: Context API for cart management.
-- **Styling**: Tailwind CSS for a responsive and clean UI.
+- User Signup & Login
+- Dashboard with dish listings
+- Add to Cart functionality
+- Cart page with total price and clear cart
+- Checkout flow with Success confirmation
+- Responsive UI with Tailwind CSS
+- Frontend built with React + Vite
+- Backend using Node.js + Express
 
 ## Tech Stack
 
 - **Frontend**: React, Vite, Tailwind CSS, React Router
 - **Backend**: Node.js, Express
+- **State Management**: React Context API
 
 ## Getting Started
 
-### 1. Clone the repo
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm
+
+### Installation
+
+1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/food-delivery-app.git
+git clone https://github.com/yourusername/food-delivery-app.git
 cd food-delivery-app
 ```
 
-### 2. Install dependencies
-
-#### Frontend
+2. Install dependencies for frontend
 
 ```bash
 cd food-delivery-frontend
 npm install
 ```
 
-#### Backend
+3. Install dependencies for backend
 
 ```bash
 cd ../food-delivery-backend
 npm install
 ```
 
-### 3. Run the app
+### Running the App
 
-#### Start Backend
+Start the backend server:
 
 ```bash
 cd food-delivery-backend
 node server.js
 ```
 
-#### Start Frontend
+Start the frontend dev server:
 
 ```bash
 cd ../food-delivery-frontend
 npm run dev
 ```
 
-Visit: [http://localhost:5173](http://localhost:5173)
+Open your browser and go to `http://localhost:5173`.
 
-## Folder Structure
+## Project Structure
 
 ```
 food-delivery-app/
-âââ food-delivery-frontend/
-â   âââ src/
-â   â   âââ components/
-â   â   âââ pages/
-â   â   âââ context/
-â   â   âââ App.jsx
-â   âââ tailwind.config.js
-âââ food-delivery-backend/
-â   âââ server.js
+├── food-delivery-frontend/    # Frontend source
+│   ├── src/
+│   │   ├── pages/             # Login, Signup, Dashboard, Cart, Success
+│   │   ├── components/        # Reusable UI components
+│   │   ├── context/           # Cart context for global state
+│   │   └── main.jsx           # Entry point
+│   ├── index.html
+│   └── tailwind.config.js
+├── food-delivery-backend/     # Backend source
+│   └── server.js              # Express server
+└── README.md
 ```
 
-## Screenshots
+## TODO (Advanced Ideas)
 
-> Add screenshots here if you'd like!
+- Integrate real database (e.g., MongoDB, PostgreSQL)
+- Add order history per user
+- Add image upload for dishes
+- Stripe API integration for real payment
+- Admin dashboard for managing dishes
 
 ## License
 
 MIT
-](../../../../../var/folders/6j/zjd049493f5_b7nl98gbfkt00000gn/T/com.apple.useractivityd/shared-pasteboard/items/8AD7CEAA-7D94-47A8-85BC-8A5960DB3D4D/README.md)
+
+---
+
+Made with love by [Your Name]
