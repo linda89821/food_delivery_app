@@ -1,12 +1,84 @@
-# React + Vite
+[# Food Delivery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack food delivery application with user authentication, dish browsing, shopping cart, and checkout features.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication**: Sign up, log in, and redirect to dashboard.
+- **Dashboard**: Browse food items and add them to your cart.
+- **Shopping Cart**: View selected items, see total price, and clear cart.
+- **Checkout Flow**: Confirm checkout and view a success page.
+- **State Management**: Context API for cart management.
+- **Styling**: Tailwind CSS for a responsive and clean UI.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Vite, Tailwind CSS, React Router
+- **Backend**: Node.js, Express
+
+## Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/food-delivery-app.git
+cd food-delivery-app
+```
+
+### 2. Install dependencies
+
+#### Frontend
+
+```bash
+cd food-delivery-frontend
+npm install
+```
+
+#### Backend
+
+```bash
+cd ../food-delivery-backend
+npm install
+```
+
+### 3. Run the app
+
+#### Start Backend
+
+```bash
+cd food-delivery-backend
+node server.js
+```
+
+#### Start Frontend
+
+```bash
+cd ../food-delivery-frontend
+npm run dev
+```
+
+Visit: [http://localhost:5173](http://localhost:5173)
+
+## Folder Structure
+
+```
+food-delivery-app/
+âââ food-delivery-frontend/
+â   âââ src/
+â   â   âââ components/
+â   â   âââ pages/
+â   â   âââ context/
+â   â   âââ App.jsx
+â   âââ tailwind.config.js
+âââ food-delivery-backend/
+â   âââ server.js
+```
+
+## Screenshots
+
+> Add screenshots here if you'd like!
+
+## License
+
+MIT
+](../../../../../var/folders/6j/zjd049493f5_b7nl98gbfkt00000gn/T/com.apple.useractivityd/shared-pasteboard/items/8AD7CEAA-7D94-47A8-85BC-8A5960DB3D4D/README.md)
